@@ -1,0 +1,24 @@
+
+//combining of array
+ let Arr1=["facebook","instagram"]
+ let Arr2=["Google","twiter"]
+ let Arr3=[...Arr1,...Arr2]
+ console.log(Arr3) 
+
+ //adding
+ let arr1=["mx","sharepoint","dream"]
+ let arr2=[...arr1,"snapchat"]
+ console.log(arr1)
+
+ //COMBINING OF OBJ
+ let obj1 = { name: "salesforce", age:23 , Date:"3/03/1999"}
+ let obj2 = { name: "developer" , age:24}
+ let obj3 = {...obj1 , ...obj2}
+ console.log(obj3)
+
+ //shallow copy
+ var a1=["x","y","z"]
+ var a2=[...a1]
+  a2.push("Satish")
+ console.log(a1)
+console.log(a2)
