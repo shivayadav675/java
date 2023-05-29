@@ -1,0 +1,58 @@
+//varibles in js
+var cource=("hello LWC");
+console.log(cource);
+var cource =("Redeclared Variable");
+console.log(cource);
+
+let newCource=("learning lwc");
+console.log(newCource);
+
+function abc() {
+    let x ="fast learn";
+    console.log(x);
+}
+abc()
+
+
+const course=("hello shiva");
+console.log(course);
+function ab(){
+    const x=20
+    console.log(x)
+}ab()
+const x=30
+console.log(x)
+
+if(1==1){
+    const y=40
+    console.log(y)
+}
+
+//type of Datatype
+//int
+var a = 10
+console.log(typeof a)
+
+//bigint
+var b = 1000000n
+console.log(typeof b)
+
+//string
+var c= "shiva"
+console.log(typeof c)
+
+//boolean
+var idMonday = true
+console.log(typeof idMonday)
+
+//undefined
+var n
+console.log(typeof n)
+
+//obj
+var obj={}
+console.log(typeof obj)
+
+//array
+var arr=[]
+console.log(typeof arr)
