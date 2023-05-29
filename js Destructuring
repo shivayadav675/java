@@ -1,0 +1,16 @@
+
+//Destructuring 
+//1) Array Destructuring
+let val=["Amezon","Google"]
+let[company1,company2]=val
+console.log(company1)
+console.log(company2)
+//2)obj Destruturing
+let val2={
+    name:"Facebook",
+    type:"CRM",
+    age:56
+}
+let {name,type,age}=val2
+console.log(name)
+console.log(type)
