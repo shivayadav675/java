@@ -1,0 +1,28 @@
+//string method in js check given word is present in str or not
+//1)includes()
+let str ="Hello shiva hope you are enjoying js"
+let check = str.includes("shiva")
+console.log(check)
+
+//2) indexOf gives index of perticular word
+let chec = str.indexOf("hope")
+console.log(chec)
+
+//startWith checks given str start with given word or not
+console.log(str.startsWith("Hello"))
+
+//4) slice extract word from string by giving start index & end index
+let newstr = str.slice(0,5)
+console.log(newstr)
+
+//5) toLowerCase it converts string into lowercase
+let str1= "HElo My name IS ShivA"
+console.log(str1.toLowerCase())
+
+//6)toUpperCase converts string into upperCase
+let str2 =" hello satish are you fine"
+console.log(str2.toUpperCase())
+
+//7)trim it removes whitespaces from string
+let str3 ="   salesforce   ben    "
+console.log(str3.trim())
