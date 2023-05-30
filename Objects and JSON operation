@@ -1,0 +1,9 @@
+
+//Interpolation it helps to add expression ito our string
+var a1=20
+var a2=30
+console.log(`The addition of ${a1} and ${a2} is ${a1 + a2}`)
+
+var nam ="MRF"
+var type ="crm"
+console.log(`The company name is ${nam} and its domain is ${type}`)
