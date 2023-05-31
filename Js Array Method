@@ -1,0 +1,57 @@
+
+//Array Methods
+//1)Map it loop over the Map and it returns new Array based on value return
+let arr=[1,3,5,6,8,9]
+let newArray = arr.map(function(currentItem,index,array)
+{
+    console.log (`current item is ${currentItem}index is ${index},array ${array}`)
+    return currentItem*2
+})
+console.log(newArray)
+
+//filter2) it returns new Array with all elements that satisfy condition
+let filterValue = arr.filter(function(currentItem,index,array)
+{
+return currentItem >5
+})
+console.log(filterValue)
+
+//every 3)it returns true or false
+let arr2 = [23,34,45,65]
+let checkEvery =arr2.every(function(currentItem)
+{
+return currentItem >20
+
+})
+console.log(checkEvery)
+
+//some it check some elements is greter ir not
+let age = [30,45,43,46,54]
+let checkAge = age.some(function(currentItem){
+    return currentItem > 50
+})
+console.log(checkAge)
+
+//sort arrange by alphabetically
+var names = ["shiv","anuj","satish","zilu","babblu"]
+console.log(names.sort())
+   
+//sort Number arrange no by order
+let num =[23,34,32,45,54]
+let sortedNo =num.sort (function(a,b){
+    return b-a
+})
+ console.log(sortedNo)
+
+
+ //reduce array to single value
+ let numb =[23,54,45]
+ let sum =numb.reduce(function(total,currentItem){
+    return total + currentItem
+ },0)
+ console.log(sum)
+
+//for each this method calls for each of array element
+numb.forEach(function(currentItem) {
+    console.log(currentItem)
+})
