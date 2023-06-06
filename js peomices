@@ -1,0 +1,22 @@
+
+//promices promise it is an object that produce single value in the future
+//Promices are used to handle asynchrous  operation in js
+//There are three states 
+//1)pending()
+//2)fulfilled()
+//3)rejected()
+//Usedcases in LWC 
+//Fetching data from server, loading files from system
+function checkIstrue(data){
+  return new Promise (function(resolve, reject){
+    if (data ==="sucess"){
+    return resolve ("sucessfully executed")
+    }else {
+        return reject("uncessfully executed")
+  }}
+  ) }
+  checkIstrue('sucess').then(function(result){
+    console.log(result)
+  }).catch(function(error){
+    console.error(error)
+  })
